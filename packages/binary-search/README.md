@@ -1,11 +1,11 @@
-# binary-search
+# Binary Search
 
-This library was generated with [Nx](https://nx.dev).
+## Performance
 
-## Building
+Worst-case Performance: $O(log\ n)$
 
-Run `nx build binary-search` to build the library.
+Best-case Performance: $O(1)$
 
-## Running unit tests
+Average Performance: $O(log\ n)$
 
-Run `nx test binary-search` to execute the unit tests via [Jest](https://jestjs.io).
+Worst-case space complexity: $O(1)$

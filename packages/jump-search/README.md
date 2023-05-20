@@ -1,11 +1,11 @@
-# jump-search
+# Jump Search
 
-This library was generated with [Nx](https://nx.dev).
+[Jump search algorithm](https://en.wikipedia.org/wiki/Jump_search) in Go
 
-## Building
+## Performance
 
-Run `nx build jump-search` to build the library.
+Worst-case Performance: $O((n/m) + m - 1)$
 
-## Running unit tests
+Best-case Performance: $O(\sqrt{n})$
 
-Run `nx test jump-search` to execute the unit tests via [Jest](https://jestjs.io).
+Worst-case space complexity: $O(1)$

@@ -1,11 +1,13 @@
-# linear-search
+# Linear Search
 
-This library was generated with [Nx](https://nx.dev).
+[Linear search algorithm](https://en.wikipedia.org/wiki/Linear_search) in Go
 
-## Building
+## Performance
 
-Run `nx build linear-search` to build the library.
+Worst-case Performance: $O(n)$
 
-## Running unit tests
+Best-case Performance: $O(1)$
 
-Run `nx test linear-search` to execute the unit tests via [Jest](https://jestjs.io).
+Average Performance: $O(n)$
+
+Worst-case space complexity: $O(1)$ iterative
