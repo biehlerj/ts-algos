@@ -14,7 +14,12 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@ts-algos/binary-search": ["packages/binary-search/src/index.ts"],
+      "@ts-algos/jump-search": ["packages/jump-search/src/index.ts"],
+      "@ts-algos/linear-search": ["packages/linear-search/src/index.ts"],
+      "@ts-algos/palindrome": ["packages/palindrome/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
