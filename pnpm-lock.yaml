@@ -23,8 +23,8 @@ devDependencies:
     specifier: 16.6.0
     version: 16.6.0(@types/node@20.4.8)(eslint@8.42.0)(nx@16.6.0)(typescript@5.1.6)
   '@nx/workspace':
-    specifier: 16.5.5
-    version: 16.5.5
+    specifier: 16.6.0
+    version: 16.6.0
   '@types/jest':
     specifier: ^29.5.3
     version: 29.5.3
