@@ -7,7 +7,7 @@
   },
   "private": true,
   "dependencies": {
-    "tslib": "^2.6.1"
+    "tslib": "^2.6.2"
   },
   "devDependencies": {
     "@nx/eslint-plugin": "16.6.0",
