@@ -14,8 +14,8 @@ devDependencies:
     specifier: 16.6.0
     version: 16.6.0(@types/node@20.5.0)(@typescript-eslint/parser@5.62.0)(eslint-config-prettier@8.10.0)(eslint@8.47.0)(nx@16.6.0)(typescript@5.1.6)
   '@nx/jest':
-    specifier: 16.7.2
-    version: 16.7.2(@types/node@20.5.0)(nx@16.6.0)(ts-node@10.9.1)(typescript@5.1.6)
+    specifier: 16.7.4
+    version: 16.7.4(@types/node@20.5.0)(nx@16.6.0)(ts-node@10.9.1)(typescript@5.1.6)
   '@nx/js':
     specifier: 16.5.2
     version: 16.5.2(nx@16.6.0)(typescript@5.1.6)
@@ -2802,6 +2802,14 @@ packages:
       - nx
     dev: true
 
+  /@nrwl/devkit@16.7.4(nx@16.6.0):
+    resolution: {integrity: sha512-Gt2q3cqDWzGP1woavGIo4bl8g9YaXic/Xfsl7qPq0LHJedLj49p1vXetB0wawkavSE2MTyo7yDh6YDK/38XoLw==}
+    dependencies:
+      '@nx/devkit': 16.7.4(nx@16.6.0)
+    transitivePeerDependencies:
+      - nx
+    dev: true
+
   /@nrwl/devkit@16.7.4(nx@16.7.4):
     resolution: {integrity: sha512-Gt2q3cqDWzGP1woavGIo4bl8g9YaXic/Xfsl7qPq0LHJedLj49p1vXetB0wawkavSE2MTyo7yDh6YDK/38XoLw==}
     dependencies:
@@ -2830,10 +2838,10 @@ packages:
       - verdaccio
     dev: true
 
-  /@nrwl/jest@16.7.2(@types/node@20.5.0)(nx@16.6.0)(ts-node@10.9.1)(typescript@5.1.6):
-    resolution: {integrity: sha512-SXqANeAi4UNEPj3xg+o1x6kK8sXZiOk4+VhTtE8vftD/TdhgNVUiyG0DvHXvpLCWNhfFftJHhbUB2sg9vma9jg==}
+  /@nrwl/jest@16.7.4(@types/node@20.5.0)(nx@16.6.0)(ts-node@10.9.1)(typescript@5.1.6):
+    resolution: {integrity: sha512-1DNBEUzYHK+rfqt6ewshYnVJaW59UqaQhMc3vpu5gI8hUbBnjun8CUAh3CHcZdxDVBG0akTAN7+JkB7UqQD2dg==}
     dependencies:
-      '@nx/jest': 16.7.2(@types/node@20.5.0)(nx@16.6.0)(ts-node@10.9.1)(typescript@5.1.6)
+      '@nx/jest': 16.7.4(@types/node@20.5.0)(nx@16.6.0)(ts-node@10.9.1)(typescript@5.1.6)
     transitivePeerDependencies:
       - '@babel/traverse'
       - '@swc-node/register'
@@ -2886,6 +2894,23 @@ packages:
     resolution: {integrity: sha512-RflIReJoMmBhvBuSKzWLNJvqhz0uDy3Alg7QylGct0uzrTFqOH9fn35W9gYYN3EE8WQXpBlcQk3t+5xs9oHGXg==}
     dependencies:
       '@nx/js': 16.7.2(@types/node@20.5.0)(nx@16.6.0)(typescript@5.1.6)
+    transitivePeerDependencies:
+      - '@babel/traverse'
+      - '@swc-node/register'
+      - '@swc/core'
+      - '@swc/wasm'
+      - '@types/node'
+      - debug
+      - nx
+      - supports-color
+      - typescript
+      - verdaccio
+    dev: true
+
+  /@nrwl/js@16.7.4(@types/node@20.5.0)(nx@16.6.0)(typescript@5.1.6):
+    resolution: {integrity: sha512-7mQnzhUUSpMOnSxM10Q2XOWWEj+GdtV7HVt1s+LDvRVXSFNLWBOucjfBunbttYGO36aKk+ZPCU53SvwH2aL5eA==}
+    dependencies:
+      '@nx/js': 16.7.4(@types/node@20.5.0)(nx@16.6.0)(typescript@5.1.6)
     transitivePeerDependencies:
       - '@babel/traverse'
       - '@swc-node/register'
@@ -3084,6 +3109,21 @@ packages:
       tslib: 2.6.2
     dev: true
 
+  /@nx/devkit@16.7.4(nx@16.6.0):
+    resolution: {integrity: sha512-SLito+/TAeDYR+d7IIpp/sBJm41WM+nIevILv0TSQW4Pq0ylUy1nUvV8Pe7l1ohZccDrQuebMUWPwGO0hv8SeQ==}
+    peerDependencies:
+      nx: '>= 15 <= 17'
+    dependencies:
+      '@nrwl/devkit': 16.7.4(nx@16.6.0)
+      ejs: 3.1.9
+      enquirer: 2.3.6
+      ignore: 5.2.4
+      nx: 16.6.0
+      semver: 7.5.3
+      tmp: 0.2.1
+      tslib: 2.6.1
+    dev: true
+
   /@nx/devkit@16.7.4(nx@16.7.4):
     resolution: {integrity: sha512-SLito+/TAeDYR+d7IIpp/sBJm41WM+nIevILv0TSQW4Pq0ylUy1nUvV8Pe7l1ohZccDrQuebMUWPwGO0hv8SeQ==}
     peerDependencies:
@@ -3134,14 +3174,14 @@ packages:
       - verdaccio
     dev: true
 
-  /@nx/jest@16.7.2(@types/node@20.5.0)(nx@16.6.0)(ts-node@10.9.1)(typescript@5.1.6):
-    resolution: {integrity: sha512-PoUxUPha2zWA3DOatjXxoCvqk+XySSGJV8XM+7oWdlVXWpWB60XAfs8f9Tl4krUk1v+JlB+9svwds8KLRoj++w==}
+  /@nx/jest@16.7.4(@types/node@20.5.0)(nx@16.6.0)(ts-node@10.9.1)(typescript@5.1.6):
+    resolution: {integrity: sha512-/96+Pf9duar1ynjF+rWw+B5UJbM8ldLlHoGAkH8755Yq20INrwr6XEqQAu/HdosBlR7Ytbg3YnFPwb3lTOuLEw==}
     dependencies:
       '@jest/reporters': 29.6.2
       '@jest/test-result': 29.6.2
-      '@nrwl/jest': 16.7.2(@types/node@20.5.0)(nx@16.6.0)(ts-node@10.9.1)(typescript@5.1.6)
-      '@nx/devkit': 16.7.2(nx@16.6.0)
-      '@nx/js': 16.7.2(@types/node@20.5.0)(nx@16.6.0)(typescript@5.1.6)
+      '@nrwl/jest': 16.7.4(@types/node@20.5.0)(nx@16.6.0)(ts-node@10.9.1)(typescript@5.1.6)
+      '@nx/devkit': 16.7.4(nx@16.6.0)
+      '@nx/js': 16.7.4(@types/node@20.5.0)(nx@16.6.0)(typescript@5.1.6)
       '@phenomnomnominal/tsquery': 5.0.1(typescript@5.1.6)
       chalk: 4.1.2
       dotenv: 16.3.1
@@ -3289,6 +3329,52 @@ packages:
       ts-node: 10.9.1(@types/node@20.5.0)(typescript@5.1.6)
       tsconfig-paths: 4.2.0
       tslib: 2.6.2
+    transitivePeerDependencies:
+      - '@babel/traverse'
+      - '@swc-node/register'
+      - '@swc/core'
+      - '@swc/wasm'
+      - '@types/node'
+      - debug
+      - nx
+      - supports-color
+      - typescript
+    dev: true
+
+  /@nx/js@16.7.4(@types/node@20.5.0)(nx@16.6.0)(typescript@5.1.6):
+    resolution: {integrity: sha512-aJnpJkgGgEt1IjsV/ywZRLZ4B5/jDkTtdVu+Wf+6UrtlWji7sq2PC96NSuKeEHjq3oAvNsBc8+u2rjB/9a+8jQ==}
+    peerDependencies:
+      verdaccio: ^5.0.4
+    peerDependenciesMeta:
+      verdaccio:
+        optional: true
+    dependencies:
+      '@babel/core': 7.22.10
+      '@babel/plugin-proposal-class-properties': 7.18.6(@babel/core@7.22.10)
+      '@babel/plugin-proposal-decorators': 7.22.10(@babel/core@7.22.10)
+      '@babel/plugin-transform-runtime': 7.22.10(@babel/core@7.22.10)
+      '@babel/preset-env': 7.22.10(@babel/core@7.22.10)
+      '@babel/preset-typescript': 7.22.5(@babel/core@7.22.10)
+      '@babel/runtime': 7.22.10
+      '@nrwl/js': 16.7.4(@types/node@20.5.0)(nx@16.6.0)(typescript@5.1.6)
+      '@nx/devkit': 16.7.4(nx@16.6.0)
+      '@nx/workspace': 16.7.4
+      '@phenomnomnominal/tsquery': 5.0.1(typescript@5.1.6)
+      babel-plugin-const-enum: 1.2.0(@babel/core@7.22.10)
+      babel-plugin-macros: 2.8.0
+      babel-plugin-transform-typescript-metadata: 0.3.2(@babel/core@7.22.10)
+      chalk: 4.1.2
+      detect-port: 1.5.1
+      fast-glob: 3.2.7
+      fs-extra: 11.1.1
+      ignore: 5.2.4
+      js-tokens: 4.0.0
+      minimatch: 3.0.5
+      semver: 7.5.3
+      source-map-support: 0.5.19
+      ts-node: 10.9.1(@types/node@20.5.0)(typescript@5.1.6)
+      tsconfig-paths: 4.2.0
+      tslib: 2.6.1
     transitivePeerDependencies:
       - '@babel/traverse'
       - '@swc-node/register'
