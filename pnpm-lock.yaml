@@ -23,8 +23,8 @@ devDependencies:
     specifier: 16.8.1
     version: 16.8.1(@types/node@20.5.0)(eslint@8.50.0)(nx@16.9.1)
   '@nx/workspace':
-    specifier: 16.7.4
-    version: 16.7.4
+    specifier: 16.9.1
+    version: 16.9.1
   '@types/jest':
     specifier: ^29.5.4
     version: 29.5.4
@@ -2902,6 +2902,14 @@ packages:
       - nx
     dev: true
 
+  /@nrwl/devkit@16.9.1(nx@16.9.1):
+    resolution: {integrity: sha512-+iR7tg+LOrGWAGmGv0hr45hYUOeKjK/Jm6WV3Ldmx6I7LaaYM5Fu6Ev2KXL669QMzLJpg3kqgKQsneWbFT3MAw==}
+    dependencies:
+      '@nx/devkit': 16.9.1(nx@16.9.1)
+    transitivePeerDependencies:
+      - nx
+    dev: true
+
   /@nrwl/eslint-plugin-nx@16.7.4(@types/node@20.5.0)(@typescript-eslint/parser@5.62.0)(eslint-config-prettier@8.10.0)(eslint@8.50.0)(nx@16.9.1)(typescript@5.1.6):
     resolution: {integrity: sha512-/qN/Gn0f+7fxmxLO/mSacous3fkBXCeauKKIeJQl6uSi1aVhV/u4BddNK+d2zn5WNN/xBI+xZThM+DYJMsiXjA==}
     dependencies:
@@ -3093,6 +3101,16 @@ packages:
       - debug
     dev: true
 
+  /@nrwl/workspace@16.9.1:
+    resolution: {integrity: sha512-jtQmsC1dmM/aUXFHw261tYu7tMqOHw4Sb3NWH4hXoasOn862L4kwkTYWn/MdQ4JTbv9uTf4+cRohP2F6aOj+jA==}
+    dependencies:
+      '@nx/workspace': 16.9.1
+    transitivePeerDependencies:
+      - '@swc-node/register'
+      - '@swc/core'
+      - debug
+    dev: true
+
   /@nx/devkit@16.5.2(nx@16.5.2):
     resolution: {integrity: sha512-QDOQeFzVhQCA65g+2RfoGKZBUnCb151+F7/PvwRESEM+jybXHoXwR9PSE3ClnnmO/d0LUKB2ohU3Z9WQrQDALQ==}
     peerDependencies:
@@ -3172,6 +3190,21 @@ packages:
       nx: '>= 15 <= 17'
     dependencies:
       '@nrwl/devkit': 16.8.1(nx@16.9.1)
+      ejs: 3.1.9
+      enquirer: 2.3.6
+      ignore: 5.2.4
+      nx: 16.9.1
+      semver: 7.5.3
+      tmp: 0.2.1
+      tslib: 2.6.2
+    dev: true
+
+  /@nx/devkit@16.9.1(nx@16.9.1):
+    resolution: {integrity: sha512-jQMLX8pUKsOIk0tLFzJms5awPxKfJEi0uxY7+IUfRNHcnDkOFiv6gf1QqJ3pobmgwBdbC6Nv/dhDP3JT2wA1gA==}
+    peerDependencies:
+      nx: '>= 15 <= 17'
+    dependencies:
+      '@nrwl/devkit': 16.9.1(nx@16.9.1)
       ejs: 3.1.9
       enquirer: 2.3.6
       ignore: 5.2.4
@@ -3826,6 +3859,24 @@ packages:
       enquirer: 2.3.6
       ignore: 5.2.4
       nx: 16.8.1
+      rxjs: 7.8.1
+      tslib: 2.6.2
+      yargs-parser: 21.1.1
+    transitivePeerDependencies:
+      - '@swc-node/register'
+      - '@swc/core'
+      - debug
+    dev: true
+
+  /@nx/workspace@16.9.1:
+    resolution: {integrity: sha512-cLTcViSwHZ6M0+YuuKOFrvSaObQVZRAlxa/rvxyZD0xcQGXVY7lWZ1IzkVJueBtSoiBVfjXETXo3KX+qZcfB8A==}
+    dependencies:
+      '@nrwl/workspace': 16.9.1
+      '@nx/devkit': 16.9.1(nx@16.9.1)
+      chalk: 4.1.2
+      enquirer: 2.3.6
+      ignore: 5.2.4
+      nx: 16.9.1
       rxjs: 7.8.1
       tslib: 2.6.2
       yargs-parser: 21.1.1
