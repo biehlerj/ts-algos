@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   tslib:
-    specifier: ^2.6.2
-    version: 2.6.2
+    specifier: ^2.6.3
+    version: 2.6.3
 
 devDependencies:
   '@nx/eslint-plugin':
@@ -1879,7 +1879,7 @@ packages:
     hasBin: true
     dependencies:
       nx: 16.10.0
-      tslib: 2.6.2
+      tslib: 2.6.3
     transitivePeerDependencies:
       - '@swc-node/register'
       - '@swc/core'
@@ -1891,7 +1891,7 @@ packages:
     hasBin: true
     dependencies:
       nx: 19.0.2
-      tslib: 2.6.2
+      tslib: 2.6.3
     transitivePeerDependencies:
       - '@swc-node/register'
       - '@swc/core'
@@ -1903,7 +1903,7 @@ packages:
     hasBin: true
     dependencies:
       nx: 19.1.1
-      tslib: 2.6.2
+      tslib: 2.6.3
     transitivePeerDependencies:
       - '@swc-node/register'
       - '@swc/core'
@@ -1915,7 +1915,7 @@ packages:
     hasBin: true
     dependencies:
       nx: 19.2.2
-      tslib: 2.6.2
+      tslib: 2.6.3
     transitivePeerDependencies:
       - '@swc-node/register'
       - '@swc/core'
@@ -1927,7 +1927,7 @@ packages:
     hasBin: true
     dependencies:
       nx: 19.3.0
-      tslib: 2.6.2
+      tslib: 2.6.3
     transitivePeerDependencies:
       - '@swc-node/register'
       - '@swc/core'
@@ -1986,7 +1986,7 @@ packages:
       nx: 16.10.0
       semver: 7.5.3
       tmp: 0.2.1
-      tslib: 2.6.2
+      tslib: 2.6.3
     dev: true
 
   /@nx/devkit@16.10.0(nx@19.2.2):
@@ -2001,7 +2001,7 @@ packages:
       nx: 19.2.2
       semver: 7.5.3
       tmp: 0.2.1
-      tslib: 2.6.2
+      tslib: 2.6.3
     dev: true
 
   /@nx/devkit@19.0.2(nx@19.0.2):
@@ -2017,7 +2017,7 @@ packages:
       nx: 19.0.2
       semver: 7.5.4
       tmp: 0.2.1
-      tslib: 2.6.2
+      tslib: 2.6.3
       yargs-parser: 21.1.1
     dev: true
 
@@ -2034,7 +2034,7 @@ packages:
       nx: 19.2.2
       semver: 7.5.4
       tmp: 0.2.1
-      tslib: 2.6.2
+      tslib: 2.6.3
       yargs-parser: 21.1.1
     dev: true
 
@@ -2051,7 +2051,7 @@ packages:
       nx: 19.1.1
       semver: 7.5.4
       tmp: 0.2.1
-      tslib: 2.6.2
+      tslib: 2.6.3
       yargs-parser: 21.1.1
     dev: true
 
@@ -2068,7 +2068,7 @@ packages:
       nx: 19.2.2
       semver: 7.5.4
       tmp: 0.2.1
-      tslib: 2.6.2
+      tslib: 2.6.3
       yargs-parser: 21.1.1
     dev: true
 
@@ -2085,7 +2085,7 @@ packages:
       nx: 19.3.0
       semver: 7.5.4
       tmp: 0.2.1
-      tslib: 2.6.2
+      tslib: 2.6.3
       yargs-parser: 21.1.1
     dev: true
 
@@ -2109,7 +2109,7 @@ packages:
       eslint-config-prettier: 8.10.0(eslint@8.57.0)
       jsonc-eslint-parser: 2.3.0
       semver: 7.5.3
-      tslib: 2.6.2
+      tslib: 2.6.3
     transitivePeerDependencies:
       - '@babel/traverse'
       - '@swc-node/register'
@@ -2138,7 +2138,7 @@ packages:
       '@nx/linter': 19.1.1(@types/node@20.14.2)(eslint@8.57.0)(nx@19.2.2)
       eslint: 8.57.0
       semver: 7.5.4
-      tslib: 2.6.2
+      tslib: 2.6.3
       typescript: 5.4.5
     transitivePeerDependencies:
       - '@babel/traverse'
@@ -2168,7 +2168,7 @@ packages:
       jest-util: 29.7.0
       minimatch: 9.0.3
       resolve.exports: 1.1.0
-      tslib: 2.6.2
+      tslib: 2.6.3
       yargs-parser: 21.1.1
     transitivePeerDependencies:
       - '@babel/traverse'
@@ -2223,7 +2223,7 @@ packages:
       source-map-support: 0.5.19
       ts-node: 10.9.1(@types/node@20.14.2)(typescript@5.4.5)
       tsconfig-paths: 4.2.0
-      tslib: 2.6.2
+      tslib: 2.6.3
     transitivePeerDependencies:
       - '@babel/traverse'
       - '@swc-node/register'
@@ -2272,7 +2272,7 @@ packages:
       source-map-support: 0.5.19
       ts-node: 10.9.1(@types/node@20.14.2)(typescript@5.4.5)
       tsconfig-paths: 4.2.0
-      tslib: 2.6.2
+      tslib: 2.6.3
     transitivePeerDependencies:
       - '@babel/traverse'
       - '@swc-node/register'
@@ -2321,7 +2321,7 @@ packages:
       source-map-support: 0.5.19
       ts-node: 10.9.1(@types/node@20.14.2)(typescript@5.4.5)
       tsconfig-paths: 4.2.0
-      tslib: 2.6.2
+      tslib: 2.6.3
     transitivePeerDependencies:
       - '@babel/traverse'
       - '@swc-node/register'
@@ -2812,7 +2812,7 @@ packages:
       ignore: 5.2.4
       nx: 16.10.0
       rxjs: 7.8.1
-      tslib: 2.6.2
+      tslib: 2.6.3
       yargs-parser: 21.1.1
     transitivePeerDependencies:
       - '@swc-node/register'
@@ -2828,7 +2828,7 @@ packages:
       chalk: 4.1.2
       enquirer: 2.3.6
       nx: 19.0.2
-      tslib: 2.6.2
+      tslib: 2.6.3
       yargs-parser: 21.1.1
     transitivePeerDependencies:
       - '@swc-node/register'
@@ -2844,7 +2844,7 @@ packages:
       chalk: 4.1.2
       enquirer: 2.3.6
       nx: 19.1.1
-      tslib: 2.6.2
+      tslib: 2.6.3
       yargs-parser: 21.1.1
     transitivePeerDependencies:
       - '@swc-node/register'
@@ -2860,7 +2860,7 @@ packages:
       chalk: 4.1.2
       enquirer: 2.3.6
       nx: 19.3.0
-      tslib: 2.6.2
+      tslib: 2.6.3
       yargs-parser: 21.1.1
     transitivePeerDependencies:
       - '@swc-node/register'
@@ -3169,7 +3169,7 @@ packages:
     engines: {node: '>=14.15.0'}
     dependencies:
       js-yaml: 3.14.1
-      tslib: 2.6.2
+      tslib: 2.6.3
     dev: true
 
   /@zkochan/js-yaml@0.0.6:
@@ -5696,7 +5696,7 @@ packages:
       tar-stream: 2.2.0
       tmp: 0.2.1
       tsconfig-paths: 4.2.0
-      tslib: 2.6.2
+      tslib: 2.6.3
       v8-compile-cache: 2.3.0
       yargs: 17.7.2
       yargs-parser: 21.1.1
@@ -5759,7 +5759,7 @@ packages:
       tar-stream: 2.2.0
       tmp: 0.2.1
       tsconfig-paths: 4.2.0
-      tslib: 2.6.2
+      tslib: 2.6.3
       yargs: 17.7.2
       yargs-parser: 21.1.1
     optionalDependencies:
@@ -5820,7 +5820,7 @@ packages:
       tar-stream: 2.2.0
       tmp: 0.2.1
       tsconfig-paths: 4.2.0
-      tslib: 2.6.2
+      tslib: 2.6.3
       yargs: 17.7.2
       yargs-parser: 21.1.1
     optionalDependencies:
@@ -5882,7 +5882,7 @@ packages:
       tar-stream: 2.2.0
       tmp: 0.2.1
       tsconfig-paths: 4.2.0
-      tslib: 2.6.2
+      tslib: 2.6.3
       yargs: 17.7.2
       yargs-parser: 21.1.1
     optionalDependencies:
@@ -5944,7 +5944,7 @@ packages:
       tar-stream: 2.2.0
       tmp: 0.2.1
       tsconfig-paths: 4.2.0
-      tslib: 2.6.2
+      tslib: 2.6.3
       yargs: 17.7.2
       yargs-parser: 21.1.1
     optionalDependencies:
@@ -6344,7 +6344,7 @@ packages:
   /rxjs@7.8.1:
     resolution: {integrity: sha512-AA3TVj+0A2iuIoQkWEK/tqFjBq2j+6PO6Y0zJcvzLAFhEFIO3HL0vls9hWLncZbAAbK0mar7oZ4V079I/qPMxg==}
     dependencies:
-      tslib: 2.6.2
+      tslib: 2.6.3
     dev: true
 
   /safe-buffer@5.2.1:
@@ -6767,8 +6767,8 @@ packages:
     resolution: {integrity: sha512-Xni35NKzjgMrwevysHTCArtLDpPvye8zV/0E4EyYn43P7/7qvQwPh9BGkHewbMulVntbigmcT7rdX3BNo9wRJg==}
     dev: true
 
-  /tslib@2.6.2:
-    resolution: {integrity: sha512-AEYxH93jGFPn/a2iVAwW87VuUIkR1FVUKB77NwMF7nBTDkDrrT/Hpt/IrCJ0QXhW27jTBDcf5ZY7w6RiqTMw2Q==}
+  /tslib@2.6.3:
+    resolution: {integrity: sha512-xNvxJEOUiWPGhUuUdQgAJPKOOJfGnIyKySOc09XkKsgdUV/3E2zvwZYdejjmRgPCgcym1juLH3226yA7sEFJKQ==}
 
   /tsutils@3.21.0(typescript@5.4.5):
     resolution: {integrity: sha512-mHKK3iUXL+3UF6xL5k0PEhKRUBKPBCv/+RkEOpjRWxxx27KKRBmmA60A9pgOUvMi8GKhRMPEmjBRPzs2W7O1OA==}
