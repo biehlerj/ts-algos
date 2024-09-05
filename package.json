@@ -25,7 +25,7 @@
     "jest": "^29.7.0",
     "jest-environment-jsdom": "^29.7.0",
     "lint-staged": "^15.2.9",
-    "nx": "19.5.3",
+    "nx": "19.6.5",
     "nx-cloud": "latest",
     "prettier": "^3.3.3",
     "ts-jest": "^29.2.4",
