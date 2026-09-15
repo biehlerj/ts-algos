@@ -28,7 +28,7 @@
     "nx": "20.4.4",
     "nx-cloud": "latest",
     "prettier": "^3.5.3",
-    "ts-jest": "^29.2.5",
+    "ts-jest": "^29.4.12",
     "ts-node": "10.9.2",
     "typescript": "~5.7.3"
   },
