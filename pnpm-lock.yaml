@@ -25,8 +25,8 @@ importers:
         specifier: 19.8.4
         version: 19.8.4
       '@nx/workspace':
-        specifier: 23.2.1
-        version: 23.2.1
+        specifier: 23.3.0
+        version: 23.3.0
       '@types/jest':
         specifier: ^30.0.0
         version: 30.0.0
@@ -75,6 +75,14 @@ importers:
       typescript:
         specifier: ~5.9.3
         version: 5.9.3
+
+  packages/binary-search: {}
+
+  packages/jump-search: {}
+
+  packages/linear-search: {}
+
+  packages/palindrome: {}
 
 packages:
 
